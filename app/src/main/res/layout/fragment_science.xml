@@ -3,15 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6321B8F3"
-    android:backgroundTint="#BEEBFF"
-    android:paddingTop="50dp"
-    tools:context=".NewsFragment">
+    tools:context=".ScienceFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="News"
+        android:text="Science"
         android:textAlignment="center"
         android:textSize="34sp"
         android:visibility="visible" />
