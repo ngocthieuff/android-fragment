@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A6D6A8"
+    android:backgroundTint="#A8CFAA"
     tools:context=".SportsFragment">
 
     <TextView

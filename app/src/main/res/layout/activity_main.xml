@@ -8,10 +8,9 @@
     android:orientation="vertical"
     >
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -34,5 +33,22 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Science" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="683dp"
+        android:orientation="vertical"
+        android:id="@+id/containerFr"
+        >
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="com.nt.fragment.NewsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_news" />
+    </LinearLayout>
+
 </LinearLayout>
